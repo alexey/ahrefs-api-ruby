@@ -24,7 +24,7 @@ module AhrefsApi
       end
 
       def to_s
-        %{#{column}#{operator}"#{value}"}
+        %{#{column}#{operator}#{value}}
       end
 
       def ==(other)
