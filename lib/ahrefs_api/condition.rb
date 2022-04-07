@@ -19,6 +19,7 @@ module AhrefsApi
     end
 
     def build_condition(*args)
+      args.flatten!
       type =
         if AhrefsApi::Condition::Operator::OPERATORS.include?(args[1])
           AhrefsApi::Condition::Operator.type
