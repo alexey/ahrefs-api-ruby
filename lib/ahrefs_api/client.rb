@@ -18,6 +18,7 @@ module AhrefsApi
       linked_anchors linked_domains linked_domains_by_type
       metrics metrics_extended
       pages pages_extended pages_info
+      positions_metrics
       refdomains refdomains_by_type refdomains_new_lost refdomains_new_lost_counters refips
       subscription_info
     ].freeze
